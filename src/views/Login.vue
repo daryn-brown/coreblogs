@@ -134,7 +134,7 @@ export default {
             position: absolute;
             background-color: #fff;
             transform: rotateZ(3deg);
-            width: 60px; 
+            width: 80px; 
             right: -30px;
             height: 101%;
             @media(min-width: 900px) {
