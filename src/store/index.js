@@ -44,15 +44,15 @@ export default new Vuex.Store({
       state.editPost = payload;
       console.log(state.editPost);
     },
+    updateUser(state, payload) {
+      state.user = payload;
+    },
     setProfileInfo(state, doc) {
       state.profileId = doc.id;
       state.profileEmail = doc.data().email;
       state.profileFirstName = doc.data().firstName;
       state.profileLastName = doc.data().lastName;
       state.profileUsername = doc.data().username;
-    },
-    updateUser(state, payload) {
-      state.user = payload;
     },
     setProfileInitials(state) {
       state.profileInitials =
